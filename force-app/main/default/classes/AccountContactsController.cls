@@ -19,6 +19,7 @@ public with sharing class AccountContactsController {
       
     // wrapper class with @AuraEnabled and {get;set;} properties 
     public class AccountContactListWrapper{
+        //this is a class
         @AuraEnabled
         public Account accRecord{get;set;}
         @AuraEnabled
